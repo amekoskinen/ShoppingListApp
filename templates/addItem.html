@@ -1,0 +1,11 @@
+{% from "bootstrap5/form.html" import render_form %}{%extends 'base.html' %}
+
+{% block header %}
+  <title>{% block title %}Make a shopping list{% endblock %}</title>
+{% endblock %}
+{% block content %}
+
+<div class="container text-center col-3 my-5 py-5  border border-2">
+{{ render_form(form, novalidate=True) }}
+</div>
+{% endblock %}
