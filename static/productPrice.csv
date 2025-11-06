@@ -1,10 +1,10 @@
-product_name,price
-Kotimaista kurkku,0.89 €
-Coop miniluumutomaatti 250g,1.39 €
-Kotimaista jääsalaatti 100g Suomi,1.39 €
-H&H Tuominen sipuli,0.17 €
-H&H Tuominen yleisperuna harjattu,0.08 €
-Kotimaista 300g juureskuutiot,1.69 €
-Oululainen Pullava Dallaspitko 400g,3.29 €
-Valio Oltermanni® e300 g viipale,3.99 €
-Coop Kevyt margariini 40 400 g,1.05 €
+product_name,price,quantity
+Kotimaista kurkku,0.89 €,1
+Coop miniluumutomaatti 250g,1.39 €,1
+Kotimaista jääsalaatti 100g Suomi,1.39 €,1
+H&H Tuominen sipuli,0.17 €,5
+H&H Tuominen yleisperuna harjattu,0.08 €,1
+Kotimaista 300g juureskuutiot,1.69 €,1
+Oululainen Pullava Dallaspitko 400g,3.29 €,1
+Valio Oltermanni® e300 g viipale,3.99 €,1
+Coop Kevyt margariini 40 400 g,1.05 €,1

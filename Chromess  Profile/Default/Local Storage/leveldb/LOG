@@ -1,18 +1,9 @@
-2025/11/06-13:43:57.723 4f70 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
-2025/11/06-13:43:57.733 4f70 Recovering log #112
-2025/11/06-13:43:57.739 4f70 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/000112.log 
-2025/11/06-13:44:29.292 5a54 Level-0 table #116: started
-2025/11/06-13:44:29.301 5a54 Level-0 table #116: 19777 bytes OK
-2025/11/06-13:44:29.304 5a54 Delete type=0 #112
-2025/11/06-13:44:29.305 5a54 Compacting 4@0 + 1@1 files
-2025/11/06-13:44:29.313 5a54 Generated table #117@0: 27 keys, 36127 bytes
-2025/11/06-13:44:29.314 5a54 Compacted 4@0 + 1@1 files => 36127 bytes
-2025/11/06-13:44:29.316 5a54 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/11/06-13:44:29.317 5a54 Delete type=2 #106
-2025/11/06-13:44:29.317 5a54 Delete type=2 #109
-2025/11/06-13:44:29.317 5a54 Delete type=2 #111
-2025/11/06-13:44:29.318 5a54 Delete type=2 #113
-2025/11/06-13:44:29.318 5a54 Delete type=2 #116
-2025/11/06-13:45:19.230 5a54 Level-0 table #119: started
-2025/11/06-13:45:19.240 5a54 Level-0 table #119: 19597 bytes OK
-2025/11/06-13:45:19.242 5a54 Delete type=0 #115
+2025/11/06-20:31:13.970 5cbc Creating DB C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb since it was missing.
+2025/11/06-20:31:14.047 5cbc Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/11/06-20:31:14.078 5cbc Recovering log #118
+2025/11/06-20:31:14.084 5cbc Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/000118.log 
+2025/11/06-20:31:14.088 5cbc Delete type=2 #117
+2025/11/06-20:31:14.088 5cbc Delete type=2 #119
+2025/11/06-20:32:10.376 3b8c Level-0 table #120: started
+2025/11/06-20:32:10.387 3b8c Level-0 table #120: 20311 bytes OK
+2025/11/06-20:32:10.389 3b8c Delete type=0 #118

@@ -1,3 +1,4 @@
-2025/11/06-13:43:57.628 28c8 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Site Characteristics Database/MANIFEST-000001
-2025/11/06-13:43:57.629 28c8 Recovering log #3
-2025/11/06-13:43:57.630 28c8 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Site Characteristics Database/000003.log 
+2025/11/06-20:31:13.824 2950 Creating DB C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Site Characteristics Database since it was missing.
+2025/11/06-20:31:13.850 2950 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Site Characteristics Database/MANIFEST-000001
+2025/11/06-20:31:13.851 2950 Recovering log #3
+2025/11/06-20:31:13.852 2950 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Site Characteristics Database/000003.log 

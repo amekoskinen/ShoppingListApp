@@ -13,11 +13,12 @@
                   <div class="p-5">
                     <div class="d-flex justify-content-between align-items-center mb-5">
                       <h1 class="fw-bold mb-0">Shopping Cart</h1>
-                      <h6 class="mb-0 text-muted">items</h6>  <!-- ADD number of items !-->
+                      <h6 class="mb-0 text-muted">{{total_items}} different items</h6>
                     </div>
+                    <form action="{{url_for('calculate_total')}}" method="post">
                     {% for product in products %}
-                    <hr class="my-4">
-                    <div class="row mb-4 d-flex justify-content-between align-items-center">
+                    <hr class="my-2">
+                    <div class="row mb-2 d-flex justify-content-between align-items-center">
                       <div class="col-md-3 col-lg-3 col-xl-3">
                         <h6 class="text-muted">{{product["product_name"]}}</h6>
                       </div>
@@ -25,9 +26,7 @@
                         <button data-mdb-button-init="" data-mdb-ripple-init="" class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" data-mdb-button-initialized="true">
                           <i class="fas fa-minus"></i>
                         </button>
-
-                        <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control form-control-sm">
-
+                        <input id="form1" min="0" name="q{{products.index(product)}}" value="{{product['quantity']}}" type="number" class="form-control form-control-sm w-25">
                         <button data-mdb-button-init="" data-mdb-ripple-init="" class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" data-mdb-button-initialized="true">
                           <i class="fas fa-plus"></i>
                         </button>
@@ -41,21 +40,25 @@
                     </div>
                     {%endfor %}
 
-                    <hr class="my-4">
+                    <hr class="my-2">
 
                     <div class="pt-5">
-                      <h6 class="mb-0"><a href="#!" class="text-body"><i class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a></h6>
+                        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="submit" >Calculate Total</button>
                     </div>
+                    </form>
                   </div>
                 </div>
+
                 <div class="col-lg-4 bg-body-tertiary">
                   <div class="p-5">
-                    <h3 class="fw-bold mb-5 mt-2 pt-1">Summary</h3>
+                    <h3 class="fw-bold mb-5 mt-2 pt-1">Total</h3>
                     <hr class="my-4">
 
                     <div class="d-flex justify-content-between mb-4">
-                      <h5 class="text-uppercase">items 3</h5>
-                      <h5>€ 132.00</h5>
+                      <h5 class="text-uppercase">All items:</h5>
+                      {% if total_price > 0 %}
+                      <h5>{{total_price}} €</h5>
+                       {% endif %}
                     </div>
 
                     <h5 class="text-uppercase mb-3">Shipping</h5>
