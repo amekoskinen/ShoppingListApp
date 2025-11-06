@@ -2,19 +2,12 @@ import time
 from selenium.webdriver.common.by import By
 import pandas
 
-file = pandas.read_csv("static/productPrice.csv") #All products that have been added
-products = file["product_name"].tolist()
-all_products = []
-for product in products:
-    product = product.replace("�","ä")
-    all_products.append(product)
-
 class DataScraping:
     def __init__(self, driver):
         self.driver = driver
         self.product_price = {}
 
-    def get_information(self, url):
+    def get_information(self, url, all_products):
         self.driver.get(url)
         time.sleep(5)
         products = self.driver.find_elements(By.CSS_SELECTOR, ".ljBjjo")

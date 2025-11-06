@@ -41,12 +41,18 @@ def home():
 
 @app.route("/check_prices")
 def check_prices():
+    file = pandas.read_csv("static/productPrice.csv")  # All products that have been added
+    products = file["product_name"].tolist()
+    all_products = []
+    for product in products:
+        product = product.replace("�", "ä")
+        all_products.append(product)
     driver = WebDriver(options=chrome_options)
     data_scraping = DataScraping(driver)
     file = pandas.read_csv("static/URLlist.csv")
     url_addresses = file["URL"].tolist()
     for url in url_addresses:
-        all_products_data = data_scraping.get_information(url)
+        all_products_data = data_scraping.get_information(url,all_products)
     driver.quit()
 
     all_names = []
@@ -56,19 +62,35 @@ def check_prices():
         all_prices.append(value)
     dict = {'product_name': all_names, 'price': all_prices}
     df = pandas.DataFrame(dict)
-    df.to_csv("static/productPrice.csv")
+    df.to_csv("static/productPrice.csv",index=False)
 
     return render_template("prices.html", prices=all_products_data)
 
 @app.route("/shopping_cart")
 def shopping_cart():
-    return render_template("shoppingCart.html", products = all_products)
+    file = pandas.read_csv("static/productPrice.csv")  # All products that have been added
+    products = file["product_name"].tolist()
+    all_products = []
+    all_prices = file["price"].tolist()
+    for product in products:
+        product = product.replace("�", "ä")
+        all_products.append(product)
+    df = pandas.read_csv("static/productPrice.csv", usecols=['product_name', 'price'])
+    result = df.to_dict(orient='records')
+    return render_template("shoppingCart.html", products = result)
 
 @app.route("/add_item", methods=["GET", "POST"])
 def add_item():
     form = AddItemForm()
     if form.validate_on_submit():
-        print("Pressed button")
+        product_name = request.form.get("product_name")
+        product_link = request.form.get("product_link")
+        name_dict = {'product_name': product_name}
+        link_dict = {'URL': product_link}
+        df = pandas.DataFrame(name_dict, index=[1])
+        df.to_csv("static/productPrice.csv", mode="a", index=False, header=False)
+        df = pandas.DataFrame(link_dict,index=[0])
+        df.to_csv("static/URLlist.csv", mode="a", index=False, header=False)
     return render_template("addItem.html", form=form)
 
 if __name__ == "__main__":
