@@ -1,6 +1,0 @@
-2025/11/05-21:34:23.279 3020 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
-2025/11/05-21:34:23.327 3020 Recovering log #96
-2025/11/05-21:34:23.549 3020 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/000096.log 
-2025/11/05-21:34:56.307 d90 Level-0 table #100: started
-2025/11/05-21:34:56.314 d90 Level-0 table #100: 19698 bytes OK
-2025/11/05-21:34:56.318 d90 Delete type=0 #96
