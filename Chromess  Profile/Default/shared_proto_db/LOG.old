@@ -1,11 +1,11 @@
-2025/11/07-19:25:25.253 41e8 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/MANIFEST-000001
-2025/11/07-19:25:25.254 41e8 Recovering log #4
-2025/11/07-19:25:25.254 41e8 (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 32768 bytes; Corruption: bad record length
-2025/11/07-19:25:25.254 41e8 (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 32768 bytes; Corruption: checksum mismatch
-2025/11/07-19:25:25.254 41e8 (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 32768 bytes; Corruption: checksum mismatch
-2025/11/07-19:25:25.255 41e8 (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 32768 bytes; Corruption: bad record length
-2025/11/07-19:25:25.255 41e8 (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 32768 bytes; Corruption: checksum mismatch
-2025/11/07-19:25:25.255 41e8 (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 32768 bytes; Corruption: checksum mismatch
-2025/11/07-19:25:25.255 41e8 (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 32768 bytes; Corruption: bad record length
-2025/11/07-19:25:25.255 41e8 (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 863 bytes; Corruption: missing start of fragmented record(2)
-2025/11/07-19:25:25.256 41e8 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log 
+2025/11/07-19:29:18.113 57dc Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/MANIFEST-000001
+2025/11/07-19:29:18.113 57dc Recovering log #4
+2025/11/07-19:29:18.114 57dc (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 32768 bytes; Corruption: bad record length
+2025/11/07-19:29:18.114 57dc (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 32768 bytes; Corruption: checksum mismatch
+2025/11/07-19:29:18.114 57dc (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 32768 bytes; Corruption: checksum mismatch
+2025/11/07-19:29:18.115 57dc (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 32768 bytes; Corruption: bad record length
+2025/11/07-19:29:18.115 57dc (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 32768 bytes; Corruption: checksum mismatch
+2025/11/07-19:29:18.115 57dc (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 32768 bytes; Corruption: checksum mismatch
+2025/11/07-19:29:18.115 57dc (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 32768 bytes; Corruption: bad record length
+2025/11/07-19:29:18.115 57dc (ignoring error) C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log: dropping 863 bytes; Corruption: missing start of fragmented record(2)
+2025/11/07-19:29:18.116 57dc Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\shared_proto_db/000004.log 
