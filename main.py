@@ -1,5 +1,3 @@
-import math
-
 from flask_bootstrap import Bootstrap5
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium import webdriver
@@ -12,6 +10,7 @@ from flask_wtf import FlaskForm
 from data_scraping import DataScraping
 from data_processing import DataProcessing
 from wtforms import StringField
+
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret key'
@@ -41,8 +40,6 @@ def home():
 @app.route("/check_prices")
 def check_prices():
     all_products = data_processing.get_all_products()
-    print(all_products)
-
     driver = WebDriver(options=chrome_options)
     data_scraping = DataScraping(driver)
     url_addresses = data_processing.get_url_addresses()
@@ -78,6 +75,8 @@ def add_item():
         df.to_csv("static/productPrice.csv", mode="a", index=False, header=False)
         df = pandas.DataFrame(link_dict,index=[0])
         df.to_csv("static/URLlist.csv", mode="a", index=False, header=False)
+        form.product_name.data = ""
+        form.product_link.data = ""
         redirect(url_for('add_item'))
     return render_template("addItem.html", form=form)
 
@@ -86,18 +85,22 @@ def calculate_total():
     total_price = 0
     df = pandas.read_csv("static/productPrice.csv")
     all_products = data_processing.get_all_products()
-    for i in range(len(all_products)):
-        quantity = request.form.get(f"q{i}")
-        df.loc[i, 'quantity'] = quantity
-        df.to_csv("static/productPrice.csv", index=False)
-        amount = int(quantity)*float(all_prices[i][0:-2])
-        total_price = total_price+amount
-    total_price = round(total_price,2)
-    total_price = f"{total_price:.2f}"
-    df = pandas.read_csv("static/productPrice.csv", usecols=['product_name', 'price', 'quantity'])
-    result = df.to_dict(orient='records')
-    return render_template("shoppingCart.html", products=result, total_items=len(result), total_price=total_price)
+    all_prices = data_processing.get_all_prices()
+    try:
+        for i in range(len(all_products)):
+            quantity = request.form.get(f"q{i}")
 
+            df.loc[i, 'quantity'] = quantity
+            df.to_csv("static/productPrice.csv", index=False)
+            amount = int(quantity)*float(all_prices[i][0:-2])
+            total_price = total_price+amount
+        total_price = round(total_price,2)
+        total_price = f"{total_price:.2f}"
+        df = pandas.read_csv("static/productPrice.csv", usecols=['product_name', 'price', 'quantity'])
+        result = df.to_dict(orient='records')
+        return render_template("shoppingCart.html", products=result, total_items=len(result), total_price=total_price)
+    except TypeError:
+        return redirect(url_for('check_prices'))
 if __name__ == "__main__":
     app.run(debug=True)
 

@@ -13,12 +13,18 @@ class DataProcessing:
             product = product.replace("�", "ä")
             self.all_products.append(product)
         return self.all_products
+
     def get_all_prices(self):
         file = pandas.read_csv("static/productPrice.csv")  # All products that have been added
         self.all_prices = file["price"].tolist()
         return self.all_prices
+
     def get_url_addresses(self):
         file = pandas.read_csv("static/URLlist.csv")
         self.url_addresses = file["URL"].tolist()
+        self.url_addresses = list(dict.fromkeys(self.url_addresses))
+        link_dict = {"URL": self.url_addresses}
+        df = pandas.DataFrame(link_dict)
+        df.to_csv("static/URLlist.csv", mode="w", index=False, header=True)
         return self.url_addresses
 

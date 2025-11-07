@@ -1,18 +1,3 @@
-2025/11/07-13:39:28.736 5b54 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
-2025/11/07-13:39:28.746 5b54 Recovering log #140
-2025/11/07-13:39:28.749 5b54 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/000140.log 
-2025/11/07-13:40:16.369 3180 Level-0 table #144: started
-2025/11/07-13:40:16.383 3180 Level-0 table #144: 19704 bytes OK
-2025/11/07-13:40:16.386 3180 Delete type=0 #140
-2025/11/07-13:40:16.388 3180 Compacting 4@0 + 1@1 files
-2025/11/07-13:40:16.398 3180 Generated table #145@0: 14 keys, 3875 bytes
-2025/11/07-13:40:16.398 3180 Compacted 4@0 + 1@1 files => 3875 bytes
-2025/11/07-13:40:16.400 3180 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/11/07-13:40:16.402 3180 Delete type=2 #134
-2025/11/07-13:40:16.402 3180 Delete type=2 #136
-2025/11/07-13:40:16.402 3180 Delete type=2 #139
-2025/11/07-13:40:16.402 3180 Delete type=2 #141
-2025/11/07-13:40:16.403 3180 Delete type=2 #144
-2025/11/07-13:41:16.937 3180 Level-0 table #147: started
-2025/11/07-13:41:16.945 3180 Level-0 table #147: 19686 bytes OK
-2025/11/07-13:41:16.947 3180 Delete type=0 #143
+2025/11/07-19:25:25.128 45a0 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/11/07-19:25:25.136 45a0 Recovering log #159
+2025/11/07-19:25:25.143 45a0 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/000159.log 
