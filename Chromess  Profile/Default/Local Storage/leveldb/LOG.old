@@ -1,9 +1,32 @@
-2025/11/07-20:04:48.821 c08 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
-2025/11/07-20:04:48.834 c08 Recovering log #167
-2025/11/07-20:04:48.838 c08 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/000167.log 
-2025/11/07-20:05:54.817 c08 Level-0 table #171: started
-2025/11/07-20:05:54.834 c08 Level-0 table #171: 19681 bytes OK
-2025/11/07-20:05:54.840 c08 Delete type=0 #167
-2025/11/07-20:06:49.395 655c Level-0 table #173: started
-2025/11/07-20:06:49.403 655c Level-0 table #173: 19726 bytes OK
-2025/11/07-20:06:49.407 655c Delete type=0 #170
+2025/11/25-23:06:21.950 4650 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/11/25-23:06:21.982 4650 Recovering log #180
+2025/11/25-23:06:21.982 4650 Level-0 table #183: started
+2025/11/25-23:06:22.041 4650 Level-0 table #183: 10058 bytes OK
+2025/11/25-23:06:22.042 4650 Recovering log #348
+2025/11/25-23:06:22.056 4650 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/000348.log 
+2025/11/25-23:06:22.072 4650 Delete type=0 #180
+2025/11/25-23:06:22.073 4650 Delete type=2 #343
+2025/11/25-23:06:22.073 4650 Delete type=2 #345
+2025/11/25-23:06:22.073 4650 Delete type=2 #347
+2025/11/25-23:06:22.073 4650 Delete type=2 #349
+2025/11/25-23:07:03.813 27a4 Level-0 table #350: started
+2025/11/25-23:07:03.827 27a4 Level-0 table #350: 16507 bytes OK
+2025/11/25-23:07:03.832 27a4 Delete type=0 #348
+2025/11/25-23:07:03.834 27a4 Compacting 4@0 + 1@1 files
+2025/11/25-23:07:03.846 27a4 Generated table #351@0: 14 keys, 4436 bytes
+2025/11/25-23:07:03.846 27a4 Compacted 4@0 + 1@1 files => 4436 bytes
+2025/11/25-23:07:03.847 27a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/25-23:07:03.848 27a4 Delete type=2 #177
+2025/11/25-23:07:03.848 27a4 Delete type=2 #179
+2025/11/25-23:07:03.848 27a4 Delete type=2 #181
+2025/11/25-23:07:03.848 27a4 Delete type=2 #183
+2025/11/25-23:07:03.849 27a4 Delete type=2 #350
+2025/11/25-23:07:36.991 27a4 Level-0 table #353: started
+2025/11/25-23:07:37.000 27a4 Level-0 table #353: 16406 bytes OK
+2025/11/25-23:07:37.002 27a4 Delete type=0 #349
+2025/11/25-23:08:07.690 27a4 Level-0 table #355: started
+2025/11/25-23:08:07.702 27a4 Level-0 table #355: 16423 bytes OK
+2025/11/25-23:08:07.704 27a4 Delete type=0 #352
+2025/11/25-23:08:41.954 27a4 Level-0 table #357: started
+2025/11/25-23:08:41.962 27a4 Level-0 table #357: 16361 bytes OK
+2025/11/25-23:08:41.968 27a4 Delete type=0 #354

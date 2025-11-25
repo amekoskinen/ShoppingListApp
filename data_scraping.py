@@ -10,12 +10,29 @@ class DataScraping:
     def get_information(self, url, all_products):
         self.driver.get(url)
         time.sleep(5)
-        products = self.driver.find_elements(By.CSS_SELECTOR, ".ljBjjo")
+        products = self.driver.find_elements(By.CSS_SELECTOR, ".joHiJE")
         product_list = []
         for product in products:
             product_list.append(product.text)
-        new_list = "".join(product_list)
-        new_list = new_list.split("\n")
+        if product_list == []:
+            new_list = product_list
+        else:
+            new_list = "".join(product_list)
+            new_list = new_list.replace("SuomiCoop", "Suomi\nCoop")
+            new_list = new_list.replace("gK","g\nK")
+            new_list = new_list.replace("oO","o\nO")
+            new_list = new_list.replace("gV","g\nV")
+            new_list = new_list.replace("eC","e\nC")
+            new_list = new_list.replace("aG","a\nG")
+            new_list = new_list.replace("gG","g\nG")
+            new_list = new_list.replace("iG","i\nG")
+            new_list = new_list.replace("nK","n\nK")
+            new_list = new_list.replace("lV","l\nV")
+            new_list = new_list.replace("gF", "g\nF")
+            new_list = new_list.replace("iC", "i\nC")
+            new_list = new_list.replace(", ","\n")
+            new_list = new_list.split("\n")
+        print(new_list)
 
         for item in new_list:
             if item in all_products:
