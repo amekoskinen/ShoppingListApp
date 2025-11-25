@@ -1,44 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Landing Page - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="./static/LandingPage/assets/favicon.ico" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="./static/LandingPage/css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand">Shopping List App</a>
-    <div class="container">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse fw-bold" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item mx-5">
-          <a class="nav-link active" aria-current="page" href="{{url_for('home')}}">Home</a>
-        </li>
-        <li class="nav-item mx-5">
-          <a class="nav-link" href="{{url_for('check_prices')}}">Check Prices</a>
-        </li>
-        <li class="nav-item mx-5">
-          <a class="nav-link" href="{{url_for('shopping_cart')}}">Shopping Cart</a>
-        </li>
-        <li class="nav-item mx-5">
-          <a class="nav-link" href="{{url_for('add_item')}}">Add item</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-      </div>
-</nav>
+{%extends 'base.html' %}
+{%block content %}
         <!-- Masthead-->
         <header class="masthead">
             <div class="container position-relative">
@@ -75,7 +36,7 @@ Check prices
                             <li class="list-inline-item">⋅</li>
                             <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
                         </ul>
-                        <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2023. All Rights Reserved.</p>
+                        <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2025. All Rights Reserved.</p>
                     </div>
                     <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
                         <ul class="list-inline mb-0">
@@ -96,5 +57,5 @@ Check prices
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
-</html>
+
+{%endblock%}

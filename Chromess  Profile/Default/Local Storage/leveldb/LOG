@@ -1,9 +1,21 @@
-2025/11/07-20:04:48.821 c08 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
-2025/11/07-20:04:48.834 c08 Recovering log #167
-2025/11/07-20:04:48.838 c08 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/000167.log 
-2025/11/07-20:05:54.817 c08 Level-0 table #171: started
-2025/11/07-20:05:54.834 c08 Level-0 table #171: 19681 bytes OK
-2025/11/07-20:05:54.840 c08 Delete type=0 #167
-2025/11/07-20:06:49.395 655c Level-0 table #173: started
-2025/11/07-20:06:49.403 655c Level-0 table #173: 19726 bytes OK
-2025/11/07-20:06:49.407 655c Delete type=0 #170
+2025/11/07-20:36:56.461 4620 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/11/07-20:36:56.470 4620 Recovering log #172
+2025/11/07-20:36:56.475 4620 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/000172.log 
+2025/11/07-20:37:21.426 48e0 Level-0 table #176: started
+2025/11/07-20:37:21.433 48e0 Level-0 table #176: 19701 bytes OK
+2025/11/07-20:37:21.435 48e0 Delete type=0 #172
+2025/11/07-20:37:21.436 48e0 Compacting 4@0 + 1@1 files
+2025/11/07-20:37:21.443 48e0 Generated table #177@0: 14 keys, 3878 bytes
+2025/11/07-20:37:21.444 48e0 Compacted 4@0 + 1@1 files => 3878 bytes
+2025/11/07-20:37:21.444 48e0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/07-20:37:21.446 48e0 Delete type=2 #166
+2025/11/07-20:37:21.446 48e0 Delete type=2 #168
+2025/11/07-20:37:21.446 48e0 Delete type=2 #171
+2025/11/07-20:37:21.446 48e0 Delete type=2 #173
+2025/11/07-20:37:21.447 48e0 Delete type=2 #176
+2025/11/07-20:38:07.581 48e0 Level-0 table #179: started
+2025/11/07-20:38:07.591 48e0 Level-0 table #179: 19620 bytes OK
+2025/11/07-20:38:07.594 48e0 Delete type=0 #175
+2025/11/07-20:39:04.613 4620 Level-0 table #181: started
+2025/11/07-20:39:04.627 4620 Level-0 table #181: 19751 bytes OK
+2025/11/07-20:39:04.638 4620 Delete type=0 #178

@@ -3,7 +3,7 @@
   <title>{% block title %}Shopping Cart{% endblock %}</title>
 {% endblock %}
 {% block content %}
-    <section class="px-4 py-5 w-100" style="background-color: #d2c9ff; border-radius: .5rem .5rem 0 0;">
+    <section class="px-4 py-5 w-100" style="background-color: #ADD8E6; border-radius: .5rem .5rem 0 0;">
       <div class="row">
         <div class="col-12">
           <div class="card card-registration card-registration-2" style="border-radius: 15px;">
@@ -20,7 +20,7 @@
                     <hr class="my-2">
                     <div class="row mb-2 d-flex justify-content-between align-items-center">
                       <div class="col-md-6 col-lg-6 col-xl-6">
-                        <h6 class="text-muted">{{product["product_name"]}}</h6>
+                        <h6 class="text-dark">{{product["product_name"]}}</h6>
                       </div>
                       <div class="col-md-3 col-lg-3 col-xl-3 d-flex">
                         <button data-mdb-button-init="" data-mdb-ripple-init="" class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" data-mdb-button-initialized="true">
@@ -43,7 +43,7 @@
                     <hr class="my-2">
 
                     <div class="pt-5">
-                        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="submit" >Calculate Total</button>
+                        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="submit">Calculate Total</button>
                     </div>
                     </form>
                   </div>
@@ -64,7 +64,12 @@
                     <h5 class="text-uppercase mb-3">Additional Purchases</h5>
 
                     <div class="mb-4 pb-2">
-                      <div id="select-wrapper-927222" class="select-wrapper"><div class="form-outline" data-mdb-input-init="" data-mdb-input-initialized="true"><input class="form-control select-input placeholder-active active" type="text" role="combobox" aria-disabled="false" aria-haspopup="listbox" aria-expanded="false" aria-controls="select-dropdown-container-698170" id="select-input-987683" readonly="true"><span class="select-arrow"></span><div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 0px;"></div><div class="form-notch-trailing"></div></div></div><select data-mdb-select-init="" class="select-initialized" data-mdb-select-initialized="true">
+                      <div id="select-wrapper-927222" class="select-wrapper"><div class="form-outline" data-mdb-input-init="" data-mdb-input-initialized="true">
+                          <input class="form-control select-input placeholder-active active" type="text" role="combobox" aria-disabled="false" aria-haspopup="listbox" aria-expanded="false" aria-controls="select-dropdown-container-698170" id="select-input-987683" readonly="true">
+                          <span class="select-arrow"></span>
+                          <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div>
+                              <div class="form-notch-middle" style="width: 0px;"></div><div class="form-notch-trailing"></div></div></div>
+                          <select data-mdb-select-init="" class="select-initialized" data-mdb-select-initialized="true">
                         <option value="1">0</option>
                         <option value="2">Two</option>
                         <option value="3">Three</option>
@@ -78,7 +83,11 @@
                       <div data-mdb-input-init="" class="form-outline" data-mdb-input-initialized="true">
                         <input type="text" id="form3Examplea2" class="form-control form-control-lg">
 
-                      <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 98.4px;"></div><div class="form-notch-trailing"></div></div></div>
+                      <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div>
+                          <div class="form-notch-middle" style="width: 98.4px;"></div>
+                          <div class="form-notch-trailing"></div>
+                      </div>
+                      </div>
                     </div>
 
                     <hr class="my-4">
@@ -88,7 +97,7 @@
                       <h5>€ TOTAL MISSING</h5> <!-- ADD TOTAL !-->
                     </div>
 
-                    <button type="button" data-mdb-button-init="" data-mdb-ripple-init="" class="btn btn-dark btn-block btn-lg" data-mdb-ripple-color="dark" data-mdb-button-initialized="true">Print Shopping List</button>
+                    <button type="button" data-mdb-button-init="" data-mdb-ripple-init="" class="btn btn-primary btn-block btn-lg rounded-pill">Print Shopping List</button>
 
                   </div>
                 </div>
