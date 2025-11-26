@@ -1,4 +1,4 @@
-{%extends 'base.html' %}
+{% from "bootstrap5/form.html" import render_form %}{%extends 'base.html' %}
 {% block header %}
   <title>{% block title %}Shopping Cart{% endblock %}</title>
 {% endblock %}
@@ -72,20 +72,22 @@
                        {% endif %}
                     </div>
 
-                    <h5 class="text-uppercase mb-3">Additional Purchases</h5>
-
+                    <h5 class="text-uppercase mb-3">Additional Purchases:</h5>
+                    <div id="additionals">
+                        {% include "_additionals.html" %}
+                    </div>
                     <div class="mb-4 pb-2">
                       <div id="select-wrapper-927222" class="select-wrapper"><div class="form-outline" data-mdb-input-init="" data-mdb-input-initialized="true">
-                          <input class="form-control select-input placeholder-active active" type="text" role="combobox" aria-disabled="false" aria-haspopup="listbox" aria-expanded="false" aria-controls="select-dropdown-container-698170" id="select-input-987683" readonly="true">
+                          <form hx-post="/shopping_cart" hx-target="#additionals" hx-swap="innerHTML">
+                            <input type="text" name="product" placeholder="Product">
+                            <input type="text" name="price" placeholder="Price">
+                            <button type="submit">Add to List</button>
+                            </form>
+
                           <span class="select-arrow"></span>
                           <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div>
                               <div class="form-notch-middle" style="width: 0px;"></div><div class="form-notch-trailing"></div></div></div>
-                          <select data-mdb-select-init="" class="select-initialized" data-mdb-select-initialized="true">
-                        <option value="1">0</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                        <option value="4">Four</option>
-                      </select></div>
+                         </div>
                     </div>
 
                     <h5 class="text-uppercase mb-3">NOTES</h5>
@@ -105,7 +107,7 @@
 
                     <div class="d-flex justify-content-between mb-5">
                       <h5 class="text-uppercase">Total price</h5>
-                      <h5>€ TOTAL MISSING</h5> <!-- ADD TOTAL !-->
+                      <h5>{{final_price}} €</h5>
                     </div>
 
                     <button type="button" data-mdb-button-init="" data-mdb-ripple-init="" class="btn btn-primary btn-block btn-lg rounded-pill">Print Shopping List</button>

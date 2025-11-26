@@ -1,39 +1,29 @@
-2025/11/26-17:14:08.368 2f64 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
-2025/11/26-17:14:08.377 2f64 Recovering log #493
-2025/11/26-17:14:08.395 2f64 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/000493.log 
-2025/11/26-17:14:38.188 2f30 Level-0 table #497: started
-2025/11/26-17:14:38.198 2f30 Level-0 table #497: 16457 bytes OK
-2025/11/26-17:14:38.201 2f30 Delete type=0 #493
-2025/11/26-17:15:07.820 2f30 Level-0 table #499: started
-2025/11/26-17:15:07.829 2f30 Level-0 table #499: 16396 bytes OK
-2025/11/26-17:15:07.833 2f30 Delete type=0 #496
-2025/11/26-17:15:07.834 2f30 Compacting 4@0 + 1@1 files
-2025/11/26-17:15:07.844 2f30 Generated table #500@0: 14 keys, 4427 bytes
-2025/11/26-17:15:07.844 2f30 Compacted 4@0 + 1@1 files => 4427 bytes
-2025/11/26-17:15:07.847 2f30 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/11/26-17:15:07.849 2f30 Delete type=2 #490
-2025/11/26-17:15:07.849 2f30 Delete type=2 #492
-2025/11/26-17:15:07.849 2f30 Delete type=2 #494
-2025/11/26-17:15:07.850 2f30 Delete type=2 #497
-2025/11/26-17:15:07.850 2f30 Delete type=2 #499
-2025/11/26-17:15:41.404 2f30 Level-0 table #502: started
-2025/11/26-17:15:41.415 2f30 Level-0 table #502: 16346 bytes OK
-2025/11/26-17:15:41.419 2f30 Delete type=0 #498
-2025/11/26-17:16:26.155 2f30 Level-0 table #504: started
-2025/11/26-17:16:26.171 2f30 Level-0 table #504: 16469 bytes OK
-2025/11/26-17:16:26.178 2f30 Delete type=0 #501
-2025/11/26-17:17:10.980 2f30 Level-0 table #506: started
-2025/11/26-17:17:10.996 2f30 Level-0 table #506: 16446 bytes OK
-2025/11/26-17:17:11.001 2f30 Delete type=0 #503
-2025/11/26-17:17:48.867 2f30 Level-0 table #508: started
-2025/11/26-17:17:48.877 2f30 Level-0 table #508: 16397 bytes OK
-2025/11/26-17:17:48.880 2f30 Delete type=0 #505
-2025/11/26-17:17:48.881 2f30 Compacting 4@0 + 1@1 files
-2025/11/26-17:17:48.889 2f30 Generated table #509@0: 14 keys, 4454 bytes
-2025/11/26-17:17:48.890 2f30 Compacted 4@0 + 1@1 files => 4454 bytes
-2025/11/26-17:17:48.892 2f30 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/11/26-17:17:48.894 2f30 Delete type=2 #500
-2025/11/26-17:17:48.894 2f30 Delete type=2 #502
-2025/11/26-17:17:48.894 2f30 Delete type=2 #504
-2025/11/26-17:17:48.894 2f30 Delete type=2 #506
-2025/11/26-17:17:48.894 2f30 Delete type=2 #508
+2025/11/26-18:17:47.237 2408 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/11/26-18:17:47.259 2408 Recovering log #507
+2025/11/26-18:17:47.259 2408 Level-0 table #511: started
+2025/11/26-18:17:47.266 2408 Level-0 table #511: 16464 bytes OK
+2025/11/26-18:17:47.277 2408 Delete type=0 #507
+2025/11/26-18:18:42.821 3ff0 Level-0 table #514: started
+2025/11/26-18:18:42.829 3ff0 Level-0 table #514: 16542 bytes OK
+2025/11/26-18:18:42.831 3ff0 Delete type=0 #512
+2025/11/26-18:19:29.229 3ff0 Level-0 table #516: started
+2025/11/26-18:19:29.238 3ff0 Level-0 table #516: 16504 bytes OK
+2025/11/26-18:19:29.242 3ff0 Delete type=0 #513
+2025/11/26-18:20:05.438 3ff0 Level-0 table #518: started
+2025/11/26-18:20:05.448 3ff0 Level-0 table #518: 16496 bytes OK
+2025/11/26-18:20:05.450 3ff0 Delete type=0 #515
+2025/11/26-18:20:05.451 3ff0 Compacting 4@0 + 1@1 files
+2025/11/26-18:20:05.458 3ff0 Generated table #519@0: 14 keys, 4438 bytes
+2025/11/26-18:20:05.458 3ff0 Compacted 4@0 + 1@1 files => 4438 bytes
+2025/11/26-18:20:05.459 3ff0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/26-18:20:05.460 3ff0 Delete type=2 #509
+2025/11/26-18:20:05.461 3ff0 Delete type=2 #511
+2025/11/26-18:20:05.461 3ff0 Delete type=2 #514
+2025/11/26-18:20:05.461 3ff0 Delete type=2 #516
+2025/11/26-18:20:05.461 3ff0 Delete type=2 #518
+2025/11/26-18:20:50.226 3ff0 Level-0 table #521: started
+2025/11/26-18:20:50.240 3ff0 Level-0 table #521: 16513 bytes OK
+2025/11/26-18:20:50.244 3ff0 Delete type=0 #517
+2025/11/26-18:21:43.576 3ff0 Level-0 table #523: started
+2025/11/26-18:21:43.585 3ff0 Level-0 table #523: 16570 bytes OK
+2025/11/26-18:21:43.589 3ff0 Delete type=0 #520
