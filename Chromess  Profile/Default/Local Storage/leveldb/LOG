@@ -1,30 +1,38 @@
-2025/11/26-13:11:22.641 106c Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
-2025/11/26-13:11:22.658 106c Recovering log #420
-2025/11/26-13:11:22.670 106c Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/000420.log 
-2025/11/26-13:11:50.292 3348 Level-0 table #424: started
-2025/11/26-13:11:50.301 3348 Level-0 table #424: 16509 bytes OK
-2025/11/26-13:11:50.303 3348 Delete type=0 #420
-2025/11/26-13:12:21.753 3348 Level-0 table #426: started
-2025/11/26-13:12:21.762 3348 Level-0 table #426: 16364 bytes OK
-2025/11/26-13:12:21.766 3348 Delete type=0 #423
-2025/11/26-13:12:53.113 3348 Level-0 table #428: started
-2025/11/26-13:12:53.123 3348 Level-0 table #428: 16434 bytes OK
-2025/11/26-13:12:53.127 3348 Delete type=0 #425
-2025/11/26-13:12:53.127 3348 Compacting 4@0 + 1@1 files
-2025/11/26-13:12:53.136 3348 Generated table #429@0: 14 keys, 4443 bytes
-2025/11/26-13:12:53.136 3348 Compacted 4@0 + 1@1 files => 4443 bytes
-2025/11/26-13:12:53.139 3348 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/11/26-13:12:53.140 3348 Delete type=2 #419
-2025/11/26-13:12:53.140 3348 Delete type=2 #421
-2025/11/26-13:12:53.140 3348 Delete type=2 #424
-2025/11/26-13:12:53.140 3348 Delete type=2 #426
-2025/11/26-13:12:53.141 3348 Delete type=2 #428
-2025/11/26-13:13:23.146 3348 Level-0 table #431: started
-2025/11/26-13:13:23.161 3348 Level-0 table #431: 16467 bytes OK
-2025/11/26-13:13:23.164 3348 Delete type=0 #427
-2025/11/26-13:14:01.408 3348 Level-0 table #433: started
-2025/11/26-13:14:01.418 3348 Level-0 table #433: 16445 bytes OK
-2025/11/26-13:14:01.422 3348 Delete type=0 #430
-2025/11/26-13:14:50.058 3348 Level-0 table #435: started
-2025/11/26-13:14:50.067 3348 Level-0 table #435: 16485 bytes OK
-2025/11/26-13:14:50.071 3348 Delete type=0 #432
+2025/11/26-13:45:45.444 245c Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/11/26-13:45:45.456 245c Recovering log #434
+2025/11/26-13:45:45.457 245c Level-0 table #437: started
+2025/11/26-13:45:45.479 245c Level-0 table #437: 16372 bytes OK
+2025/11/26-13:45:45.510 245c Delete type=0 #434
+2025/11/26-13:45:45.542 d64 Compacting 4@0 + 1@1 files
+2025/11/26-13:45:45.571 d64 Generated table #439@0: 14 keys, 4460 bytes
+2025/11/26-13:45:45.572 d64 Compacted 4@0 + 1@1 files => 4460 bytes
+2025/11/26-13:45:45.575 d64 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/26-13:45:45.576 d64 Delete type=2 #429
+2025/11/26-13:45:45.577 d64 Delete type=2 #431
+2025/11/26-13:45:45.577 d64 Delete type=2 #433
+2025/11/26-13:45:45.577 d64 Delete type=2 #435
+2025/11/26-13:45:45.577 d64 Delete type=2 #437
+2025/11/26-13:46:31.707 2eb8 Level-0 table #441: started
+2025/11/26-13:46:31.718 2eb8 Level-0 table #441: 16570 bytes OK
+2025/11/26-13:46:31.722 2eb8 Delete type=0 #438
+2025/11/26-13:47:02.241 2eb8 Level-0 table #443: started
+2025/11/26-13:47:02.249 2eb8 Level-0 table #443: 16357 bytes OK
+2025/11/26-13:47:02.251 2eb8 Delete type=0 #440
+2025/11/26-13:47:44.650 2eb8 Level-0 table #445: started
+2025/11/26-13:47:44.657 2eb8 Level-0 table #445: 16465 bytes OK
+2025/11/26-13:47:44.659 2eb8 Delete type=0 #442
+2025/11/26-13:48:31.979 2eb8 Level-0 table #447: started
+2025/11/26-13:48:31.989 2eb8 Level-0 table #447: 16465 bytes OK
+2025/11/26-13:48:31.993 2eb8 Delete type=0 #444
+2025/11/26-13:48:31.994 2eb8 Compacting 4@0 + 1@1 files
+2025/11/26-13:48:32.006 2eb8 Generated table #448@0: 14 keys, 4450 bytes
+2025/11/26-13:48:32.006 2eb8 Compacted 4@0 + 1@1 files => 4450 bytes
+2025/11/26-13:48:32.009 2eb8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/26-13:48:32.010 2eb8 Delete type=2 #439
+2025/11/26-13:48:32.010 2eb8 Delete type=2 #441
+2025/11/26-13:48:32.010 2eb8 Delete type=2 #443
+2025/11/26-13:48:32.010 2eb8 Delete type=2 #445
+2025/11/26-13:48:32.010 2eb8 Delete type=2 #447
+2025/11/26-13:49:16.190 2eb8 Level-0 table #450: started
+2025/11/26-13:49:16.197 2eb8 Level-0 table #450: 16494 bytes OK
+2025/11/26-13:49:16.199 2eb8 Delete type=0 #446
