@@ -16,32 +16,43 @@
                       <h6 class="mb-0 text-muted">{{total_items}} different items</h6>
                     </div>
                     <form action="{{url_for('calculate_total')}}" method="post">
-                    {% for product in products %}
+                    {% for i in range(total_items)%}
                     <hr class="my-2">
                     <div class="row mb-2 d-flex justify-content-between align-items-center">
                       <div class="col-md-6 col-lg-6 col-xl-6">
-                        <h6 class="text-dark">{{product["product_name"]}}</h6>
+                        <h6 class="text-dark">{{products[i]["product_name"]}}</h6>
                       </div>
                       <div class="col-md-3 col-lg-3 col-xl-3 d-flex">
                         <button data-mdb-button-init="" data-mdb-ripple-init="" class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" data-mdb-button-initialized="true">
                           <i class="fas fa-minus"></i>
                         </button>
-                        <input id="form1" min="0" name="q{{products.index(product)}}" value="{{product['quantity']}}" type="number" class="form-control form-control-sm w-25">
+                        <input id="form1" min="0" name="q{{i}}" value="{{products[i]['quantity']}}" type="number" class="form-control form-control-sm w-25">
                         <button data-mdb-button-init="" data-mdb-ripple-init="" class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" data-mdb-button-initialized="true">
                           <i class="fas fa-plus"></i>
                         </button>
                       </div>
                       <div class="col-md-2 col-lg-2 col-xl-2 offset-lg-1">
-                        <h6 class="mb-0">{{product["price"]}}</h6>
+                          {% if amounts and amounts[i]<= prices[i]%}
+                            <h6 class="mb-0">{{products[i]["price"]}}</h6>
+                          {% endif %}
+                          {%if amounts and amounts[i]> prices[i] %}
+                            <h6 class="mb-0">{{amount_prices[i]}} ({{products[i]["price"]}})</h6>
+                          {%endif%}
+                          {%if not amounts%}
+                            <h6 class="mb-0">{{products[i]["price"]}}</h6>
+                          {%endif%}
+
                       </div>
-                      <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                        <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+
+                      <div class="col-md-1 col-lg-1 col-xl-1">
+
+                        <h6 class="mb-0"></h6>
+
                       </div>
                     </div>
-                    {%endfor %}
+                    {%endfor%}
 
                     <hr class="my-2">
-
                     <div class="pt-5">
                         <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="submit">Calculate Total</button>
                     </div>

@@ -8,10 +8,16 @@ class DataProcessing:
     def get_all_products(self):
         file = pandas.read_csv("static/productPrice.csv")  # All products that have been added
         products = file["product_name"].tolist()
+        quantities = file["quantity"].tolist()
         self.all_products = []
         for product in products:
             product = product.replace("�", "ä")
             self.all_products.append(product)
+        for quantity in quantities:
+            try:
+                quantity = int(quantity)
+            except ValueError:
+                quantity = 0
         return self.all_products
 
     def get_all_prices(self):

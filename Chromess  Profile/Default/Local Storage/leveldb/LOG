@@ -1,38 +1,39 @@
-2025/11/26-13:45:45.444 245c Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
-2025/11/26-13:45:45.456 245c Recovering log #434
-2025/11/26-13:45:45.457 245c Level-0 table #437: started
-2025/11/26-13:45:45.479 245c Level-0 table #437: 16372 bytes OK
-2025/11/26-13:45:45.510 245c Delete type=0 #434
-2025/11/26-13:45:45.542 d64 Compacting 4@0 + 1@1 files
-2025/11/26-13:45:45.571 d64 Generated table #439@0: 14 keys, 4460 bytes
-2025/11/26-13:45:45.572 d64 Compacted 4@0 + 1@1 files => 4460 bytes
-2025/11/26-13:45:45.575 d64 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/11/26-13:45:45.576 d64 Delete type=2 #429
-2025/11/26-13:45:45.577 d64 Delete type=2 #431
-2025/11/26-13:45:45.577 d64 Delete type=2 #433
-2025/11/26-13:45:45.577 d64 Delete type=2 #435
-2025/11/26-13:45:45.577 d64 Delete type=2 #437
-2025/11/26-13:46:31.707 2eb8 Level-0 table #441: started
-2025/11/26-13:46:31.718 2eb8 Level-0 table #441: 16570 bytes OK
-2025/11/26-13:46:31.722 2eb8 Delete type=0 #438
-2025/11/26-13:47:02.241 2eb8 Level-0 table #443: started
-2025/11/26-13:47:02.249 2eb8 Level-0 table #443: 16357 bytes OK
-2025/11/26-13:47:02.251 2eb8 Delete type=0 #440
-2025/11/26-13:47:44.650 2eb8 Level-0 table #445: started
-2025/11/26-13:47:44.657 2eb8 Level-0 table #445: 16465 bytes OK
-2025/11/26-13:47:44.659 2eb8 Delete type=0 #442
-2025/11/26-13:48:31.979 2eb8 Level-0 table #447: started
-2025/11/26-13:48:31.989 2eb8 Level-0 table #447: 16465 bytes OK
-2025/11/26-13:48:31.993 2eb8 Delete type=0 #444
-2025/11/26-13:48:31.994 2eb8 Compacting 4@0 + 1@1 files
-2025/11/26-13:48:32.006 2eb8 Generated table #448@0: 14 keys, 4450 bytes
-2025/11/26-13:48:32.006 2eb8 Compacted 4@0 + 1@1 files => 4450 bytes
-2025/11/26-13:48:32.009 2eb8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/11/26-13:48:32.010 2eb8 Delete type=2 #439
-2025/11/26-13:48:32.010 2eb8 Delete type=2 #441
-2025/11/26-13:48:32.010 2eb8 Delete type=2 #443
-2025/11/26-13:48:32.010 2eb8 Delete type=2 #445
-2025/11/26-13:48:32.010 2eb8 Delete type=2 #447
-2025/11/26-13:49:16.190 2eb8 Level-0 table #450: started
-2025/11/26-13:49:16.197 2eb8 Level-0 table #450: 16494 bytes OK
-2025/11/26-13:49:16.199 2eb8 Delete type=0 #446
+2025/11/26-17:14:08.368 2f64 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/11/26-17:14:08.377 2f64 Recovering log #493
+2025/11/26-17:14:08.395 2f64 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/000493.log 
+2025/11/26-17:14:38.188 2f30 Level-0 table #497: started
+2025/11/26-17:14:38.198 2f30 Level-0 table #497: 16457 bytes OK
+2025/11/26-17:14:38.201 2f30 Delete type=0 #493
+2025/11/26-17:15:07.820 2f30 Level-0 table #499: started
+2025/11/26-17:15:07.829 2f30 Level-0 table #499: 16396 bytes OK
+2025/11/26-17:15:07.833 2f30 Delete type=0 #496
+2025/11/26-17:15:07.834 2f30 Compacting 4@0 + 1@1 files
+2025/11/26-17:15:07.844 2f30 Generated table #500@0: 14 keys, 4427 bytes
+2025/11/26-17:15:07.844 2f30 Compacted 4@0 + 1@1 files => 4427 bytes
+2025/11/26-17:15:07.847 2f30 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/26-17:15:07.849 2f30 Delete type=2 #490
+2025/11/26-17:15:07.849 2f30 Delete type=2 #492
+2025/11/26-17:15:07.849 2f30 Delete type=2 #494
+2025/11/26-17:15:07.850 2f30 Delete type=2 #497
+2025/11/26-17:15:07.850 2f30 Delete type=2 #499
+2025/11/26-17:15:41.404 2f30 Level-0 table #502: started
+2025/11/26-17:15:41.415 2f30 Level-0 table #502: 16346 bytes OK
+2025/11/26-17:15:41.419 2f30 Delete type=0 #498
+2025/11/26-17:16:26.155 2f30 Level-0 table #504: started
+2025/11/26-17:16:26.171 2f30 Level-0 table #504: 16469 bytes OK
+2025/11/26-17:16:26.178 2f30 Delete type=0 #501
+2025/11/26-17:17:10.980 2f30 Level-0 table #506: started
+2025/11/26-17:17:10.996 2f30 Level-0 table #506: 16446 bytes OK
+2025/11/26-17:17:11.001 2f30 Delete type=0 #503
+2025/11/26-17:17:48.867 2f30 Level-0 table #508: started
+2025/11/26-17:17:48.877 2f30 Level-0 table #508: 16397 bytes OK
+2025/11/26-17:17:48.880 2f30 Delete type=0 #505
+2025/11/26-17:17:48.881 2f30 Compacting 4@0 + 1@1 files
+2025/11/26-17:17:48.889 2f30 Generated table #509@0: 14 keys, 4454 bytes
+2025/11/26-17:17:48.890 2f30 Compacted 4@0 + 1@1 files => 4454 bytes
+2025/11/26-17:17:48.892 2f30 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/26-17:17:48.894 2f30 Delete type=2 #500
+2025/11/26-17:17:48.894 2f30 Delete type=2 #502
+2025/11/26-17:17:48.894 2f30 Delete type=2 #504
+2025/11/26-17:17:48.894 2f30 Delete type=2 #506
+2025/11/26-17:17:48.894 2f30 Delete type=2 #508

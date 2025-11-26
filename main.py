@@ -12,6 +12,7 @@ from data_processing import DataProcessing
 from wtforms import StringField
 
 
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret key'
 Bootstrap5(app)
@@ -57,6 +58,8 @@ def check_prices():
 
     return redirect(url_for('shopping_cart'))
 
+
+
 @app.route("/shopping_cart")
 def shopping_cart():
     df = pandas.read_csv("static/productPrice.csv", usecols=['product_name', 'price', 'quantity'])
@@ -87,20 +90,35 @@ def calculate_total():
     all_products = data_processing.get_all_products()
     all_prices = data_processing.get_all_prices()
     try:
+        amounts = []
         for i in range(len(all_products)):
             quantity = request.form.get(f"q{i}")
-
             df.loc[i, 'quantity'] = quantity
             df.to_csv("static/productPrice.csv", index=False)
-            amount = int(quantity)*float(all_prices[i][0:-2])
-            total_price = total_price+amount
+            try:
+                amount = int(quantity)*float(all_prices[i][0:-2])
+                amounts.append(amount)
+                total_price = total_price+amount
+            except ValueError:
+                amount = float(all_prices[i][0:-2])
+                amounts.append(amount)
+                total_price = total_price + amount
         total_price = round(total_price,2)
         total_price = f"{total_price:.2f}"
         df = pandas.read_csv("static/productPrice.csv", usecols=['product_name', 'price', 'quantity'])
         result = df.to_dict(orient='records')
-        return render_template("shoppingCart.html", products=result, total_items=len(result), total_price=total_price)
-    except TypeError:
-        return redirect(url_for('check_prices'))
+        prices = []
+        for i in range(len(result)):
+            prices.append(float(result[i]["price"][0:-2]))
+        amount_prices = []
+        for i in range(len(amounts)):
+            amount_prices.append(f"{amounts[i]:.2f} €")
+        return render_template("shoppingCart.html", products=result, total_items=len(result), total_price=total_price, amounts=amounts, prices=prices, amount_prices= amount_prices)
+    except ValueError:
+
+        return redirect(url_for('shopping_cart'))
+
+
 if __name__ == "__main__":
     app.run(debug=True)
 

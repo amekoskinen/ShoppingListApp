@@ -13,9 +13,12 @@
 </p>
       <div class="d-inline-flex gap-2 mb-5"> <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="window.location.href = '{{url_for('shopping_cart')}}'">
 Shopping cart</button>
-          <button class="btn btn-secondary btn-lg px-4 rounded-pill" type="button" onclick="window.location.href = '{{url_for('check_prices')}}'">
+          <button class="btn btn-secondary btn-lg px-4 rounded-pill" type="button" onclick="window.location.href ='{{url_for('check_prices')}}'">
 Check prices
 </button>
+                        </div>
+                         <div class="d-inline-flex gap-2 mb-5" id="loading">
+
                         </div>
                     </div>
                 </div>
@@ -57,5 +60,6 @@ Check prices
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="./static/LandingPage/js/scripts.js"></script>
 
 {%endblock%}
