@@ -1,32 +1,39 @@
-2025/11/25-23:06:21.950 4650 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
-2025/11/25-23:06:21.982 4650 Recovering log #180
-2025/11/25-23:06:21.982 4650 Level-0 table #183: started
-2025/11/25-23:06:22.041 4650 Level-0 table #183: 10058 bytes OK
-2025/11/25-23:06:22.042 4650 Recovering log #348
-2025/11/25-23:06:22.056 4650 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/000348.log 
-2025/11/25-23:06:22.072 4650 Delete type=0 #180
-2025/11/25-23:06:22.073 4650 Delete type=2 #343
-2025/11/25-23:06:22.073 4650 Delete type=2 #345
-2025/11/25-23:06:22.073 4650 Delete type=2 #347
-2025/11/25-23:06:22.073 4650 Delete type=2 #349
-2025/11/25-23:07:03.813 27a4 Level-0 table #350: started
-2025/11/25-23:07:03.827 27a4 Level-0 table #350: 16507 bytes OK
-2025/11/25-23:07:03.832 27a4 Delete type=0 #348
-2025/11/25-23:07:03.834 27a4 Compacting 4@0 + 1@1 files
-2025/11/25-23:07:03.846 27a4 Generated table #351@0: 14 keys, 4436 bytes
-2025/11/25-23:07:03.846 27a4 Compacted 4@0 + 1@1 files => 4436 bytes
-2025/11/25-23:07:03.847 27a4 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/11/25-23:07:03.848 27a4 Delete type=2 #177
-2025/11/25-23:07:03.848 27a4 Delete type=2 #179
-2025/11/25-23:07:03.848 27a4 Delete type=2 #181
-2025/11/25-23:07:03.848 27a4 Delete type=2 #183
-2025/11/25-23:07:03.849 27a4 Delete type=2 #350
-2025/11/25-23:07:36.991 27a4 Level-0 table #353: started
-2025/11/25-23:07:37.000 27a4 Level-0 table #353: 16406 bytes OK
-2025/11/25-23:07:37.002 27a4 Delete type=0 #349
-2025/11/25-23:08:07.690 27a4 Level-0 table #355: started
-2025/11/25-23:08:07.702 27a4 Level-0 table #355: 16423 bytes OK
-2025/11/25-23:08:07.704 27a4 Delete type=0 #352
-2025/11/25-23:08:41.954 27a4 Level-0 table #357: started
-2025/11/25-23:08:41.962 27a4 Level-0 table #357: 16361 bytes OK
-2025/11/25-23:08:41.968 27a4 Delete type=0 #354
+2025/11/26-12:58:22.896 1f40 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/11/26-12:58:22.916 1f40 Recovering log #405
+2025/11/26-12:58:22.922 1f40 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Local Storage\leveldb/000405.log 
+2025/11/26-12:59:13.526 1bd4 Level-0 table #409: started
+2025/11/26-12:59:13.540 1bd4 Level-0 table #409: 16464 bytes OK
+2025/11/26-12:59:13.544 1bd4 Delete type=0 #405
+2025/11/26-12:59:13.545 1bd4 Compacting 4@0 + 1@1 files
+2025/11/26-12:59:13.554 1bd4 Generated table #410@0: 14 keys, 4442 bytes
+2025/11/26-12:59:13.554 1bd4 Compacted 4@0 + 1@1 files => 4442 bytes
+2025/11/26-12:59:13.558 1bd4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/26-12:59:13.560 1bd4 Delete type=2 #400
+2025/11/26-12:59:13.560 1bd4 Delete type=2 #402
+2025/11/26-12:59:13.560 1bd4 Delete type=2 #404
+2025/11/26-12:59:13.560 1bd4 Delete type=2 #406
+2025/11/26-12:59:13.560 1bd4 Delete type=2 #409
+2025/11/26-12:59:50.519 1bd4 Level-0 table #412: started
+2025/11/26-12:59:50.528 1bd4 Level-0 table #412: 16499 bytes OK
+2025/11/26-12:59:50.532 1bd4 Delete type=0 #408
+2025/11/26-13:00:24.124 1bd4 Level-0 table #414: started
+2025/11/26-13:00:24.138 1bd4 Level-0 table #414: 16402 bytes OK
+2025/11/26-13:00:24.143 1bd4 Delete type=0 #411
+2025/11/26-13:01:01.602 1bd4 Level-0 table #416: started
+2025/11/26-13:01:01.609 1bd4 Level-0 table #416: 16391 bytes OK
+2025/11/26-13:01:01.612 1bd4 Delete type=0 #413
+2025/11/26-13:01:35.697 1bd4 Level-0 table #418: started
+2025/11/26-13:01:35.706 1bd4 Level-0 table #418: 16378 bytes OK
+2025/11/26-13:01:35.708 1bd4 Delete type=0 #415
+2025/11/26-13:01:35.709 1bd4 Compacting 4@0 + 1@1 files
+2025/11/26-13:01:35.718 1bd4 Generated table #419@0: 14 keys, 4427 bytes
+2025/11/26-13:01:35.718 1bd4 Compacted 4@0 + 1@1 files => 4427 bytes
+2025/11/26-13:01:35.721 1bd4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/26-13:01:35.722 1bd4 Delete type=2 #410
+2025/11/26-13:01:35.722 1bd4 Delete type=2 #412
+2025/11/26-13:01:35.722 1bd4 Delete type=2 #414
+2025/11/26-13:01:35.722 1bd4 Delete type=2 #416
+2025/11/26-13:01:35.723 1bd4 Delete type=2 #418
+2025/11/26-13:02:24.104 1bd4 Level-0 table #421: started
+2025/11/26-13:02:24.113 1bd4 Level-0 table #421: 16459 bytes OK
+2025/11/26-13:02:24.115 1bd4 Delete type=0 #417

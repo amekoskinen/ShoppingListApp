@@ -1,3 +1,14 @@
-2025/11/25-23:13:14.047 25d0 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Session Storage/MANIFEST-000001
-2025/11/25-23:13:14.048 25d0 Recovering log #15
-2025/11/25-23:13:14.063 25d0 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Session Storage/000015.log 
+2025/11/26-13:11:22.690 3348 Reusing MANIFEST C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Session Storage/MANIFEST-000001
+2025/11/26-13:11:22.699 3348 Recovering log #15
+2025/11/26-13:11:22.707 3348 Reusing old log C:\Users\ameko\OneDrive\Desktop\KauppaApp\Chromess  Profile\Default\Session Storage/000015.log 
+2025/11/26-13:11:26.971 3348 Level-0 table #19: started
+2025/11/26-13:11:26.981 3348 Level-0 table #19: 12276 bytes OK
+2025/11/26-13:11:26.985 3348 Delete type=0 #15
+2025/11/26-13:11:26.986 3348 Compacting 4@0 + 0@1 files
+2025/11/26-13:11:26.999 3348 Generated table #20@0: 7 keys, 367 bytes
+2025/11/26-13:11:26.999 3348 Compacted 4@0 + 0@1 files => 367 bytes
+2025/11/26-13:11:27.002 3348 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/11/26-13:11:27.003 3348 Delete type=2 #3
+2025/11/26-13:11:27.003 3348 Delete type=2 #13
+2025/11/26-13:11:27.003 3348 Delete type=2 #16
+2025/11/26-13:11:27.003 3348 Delete type=2 #19
